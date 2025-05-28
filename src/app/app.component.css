@@ -11,6 +11,25 @@ h1 {
   margin: 1rem auto;
   background: -webkit-linear-gradient(45deg, #f9096d, #b700ff);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 3rem;
+}
+
+/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  background: radial-gradient(circle at top left, #181023, #0b0519);
+  color: #c3b3d8;
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }

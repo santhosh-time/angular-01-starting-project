@@ -1,10 +1,12 @@
 import { Component } from '@angular/core';
+import { HeaderComponent } from "./header/header.component";
 
+// This is the main application component for an Angular application.
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [],
+  imports: [HeaderComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css',
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {}
